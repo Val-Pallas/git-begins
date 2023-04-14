@@ -10,3 +10,8 @@ git push --force: This command is used to force push changes from your local rep
 overwriting any changes that may be present in the remote repository. This command should be used with caution, 
 as it can potentially cause data loss or conflicts with other contributors. Only use this command if you are certain 
 that it is safe to do so.
+
+Ajoutant la commande qui permet de pull:
+git pull: This command is used to fetch changes from the remote repository and merge them into the current branch of your local repository. For example, if you are on the main branch of your local repository and want to fetch and merge changes from the main branch of the remote repository, you would use the command git pull.
+
+git fetch: This command is used to fetch changes from the remote repository without merging them into your local repository. This can be useful if you want to preview the changes before merging them. After fetching the changes, you can use the git merge command to merge them into your local repository. For example, if you want to fetch changes from the main branch of the remote repository, you would use the command git fetch origin main.
