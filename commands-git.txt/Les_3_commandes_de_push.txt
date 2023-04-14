@@ -1,0 +1,12 @@
+git push: This command is used to push changes from the current branch of your local repository to the corresponding 
+branch of the remote repository. For example, if you are on the main branch of your local repository and want to push 
+changes to the main branch of the remote repository, you would use the command git push.
+
+git push --all: This command is used to push all branches from your local repository to the remote repository. 
+For example, if you have multiple branches in your local repository and want to push all of them to the remote repository,
+ you would use the command git push --all.
+
+git push --force: This command is used to force push changes from your local repository to the remote repository, 
+overwriting any changes that may be present in the remote repository. This command should be used with caution, 
+as it can potentially cause data loss or conflicts with other contributors. Only use this command if you are certain 
+that it is safe to do so.
